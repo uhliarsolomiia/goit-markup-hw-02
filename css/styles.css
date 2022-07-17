@@ -22,13 +22,11 @@ header {
 .logo {
   color: var(--secondary-text-color);
   font-family: 'Raleway';
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #2196f3;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   text-decoration: none;
 }
 
@@ -198,11 +196,9 @@ header {
   text-align: center;
   letter-spacing: 0.03em;
 }
-
-.team-carts {
-  background: var(--background-color);
+.team-items {
+  background-color: var(--background-color);
 }
-
 footer {
   background-color: var(--background-color-hero);
 }
@@ -221,9 +217,9 @@ footer {
 }
 .adress-list {
   list-style: none;
+  font-style: normal;
 }
 .adress-link {
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -233,7 +229,6 @@ footer {
 }
 .adress-mail {
   color: var(--adress-color);
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -243,7 +238,6 @@ footer {
 
 .adress-number {
   color: var(--adress-color);
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -307,8 +301,6 @@ footer {
 }
 
 .galery-title {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -318,7 +310,6 @@ footer {
 }
 
 .galery-text {
-  font-family: 'Roboto';
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
